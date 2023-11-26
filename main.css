@@ -14,12 +14,6 @@ main {
     display: inherit;
 }
 
-header#hlogo {
-    background-color: rgb(240, 131, 29);
-    color: white;
-    align-items: center;
-}
-
 h1 {
     background-color: black;
     margin: 0%;
