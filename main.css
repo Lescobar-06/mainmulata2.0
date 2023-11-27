@@ -37,6 +37,8 @@ div.topnav {
 img{
     width: 3%;
     height: 3%;
+    margin: 0%;
+    float: left;
 }
 
 .topnav a {
