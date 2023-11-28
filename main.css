@@ -44,7 +44,7 @@ img{
 .topnav a {
   float: left;
   color: #f2f2f2;
-  text-align: center;
+  text-align: end;
   padding: 0;
   text-decoration: none;
   font-size: 17px;
@@ -71,7 +71,7 @@ background-position: center;
 
 button#scrollBtn {
     position: relative;
-    bottom: -660px;
+    bottom: -580px;
     right: 20px;
     background-color: #333; 
     color: rgb(255, 255, 255);
@@ -84,7 +84,7 @@ button#scrollBtn {
 
   div#arrowDown {
     position: relative;
-    bottom: -214px; 
+    bottom: -140px; 
     right: 20px;
     font-size: 10px; 
     color:rgb(255, 255, 255); 
@@ -180,4 +180,13 @@ p {
     margin-block-end: 0;
     background: rgba(0, 0, 0, 0.5);
     text-align: left;
+}
+
+#text {
+    margin: 0;
+    padding: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: right;
 }
