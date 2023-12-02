@@ -153,16 +153,14 @@ h1#adaptation {
 }
 
 footer {
-  background-color: rgb(7, 214, 241);
-  color: rgb(26, 26, 145);
+  color: rgb(255, 255, 255);
   align-items: center;
   height: 2%;
   align-items: center;
 }
 
 a#footer {
-  color: rgb(0, 0, 0);
-  background-color: rgb(7, 214, 412);
+  color: rgb(255, 255, 255);
   text-align: center;
   padding: 0;
   text-decoration: none;
@@ -188,9 +186,6 @@ p {
 body {
   margin: 0;
   padding: 0;
-  /* 
-  overflow: hidden;
-  */
 }
 
 main {
