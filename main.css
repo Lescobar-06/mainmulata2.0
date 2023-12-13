@@ -135,10 +135,10 @@ img#universe {
 }
 
 img#unipic {
-  width: 100vh;
+  width: 70vh;
   height: 50vh;
   float: left;
-  margin-left: 1%;
+  margin-left: 0%;
   margin-top: 1%;
 }
 
@@ -146,7 +146,7 @@ button#scrollBtn {
   position: relative;
   bottom: 40%;
   left: -800px;
-  margin-bottom: 4%;
+  margin-bottom: 0%;
   color: rgb(255, 255, 255);
   border: none;
   border-radius: 60px;
@@ -169,15 +169,28 @@ h1#spiritual {
   background-position: center;
 }
 
+img#spirpic {
+  width: 50vh;
+  height: 50vh;
+  margin-left: -50%;
+  margin-top: -4%;
+}
+
 h1#matured {
   color: rgb(48, 51, 42);
-
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 
   margin-block-start: 0;
   margin-block-end: 0;
+}
+
+img#matpic {
+  width: 100vh;
+  height: 50vh;
+  margin-left: -50%;
+  margin-top: 0%;
 }
 
 h1#knowledge {
@@ -188,6 +201,13 @@ h1#knowledge {
   background-size: cover;
 }
 
+img#knowpic {
+  width: 100vh;
+  height: 50vh;
+  margin-left: 40%;
+  margin-top: 0%;
+}
+
 h1#fade {
   color: orangered;
 
@@ -196,12 +216,25 @@ h1#fade {
   background-size: cover;
 }
 
+img#fadepic {
+  width: 100vh;
+  height: 50vh;
+  margin-left: -50%;
+  margin-top: 15%;
+}
+
 h1#phase {
   color: goldenrod;
 
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+img#phasepic {
+  width: 35%;
+  margin-left: 14%;
+  margin-top: -5%;
 }
 
 h1#matured::before {
@@ -214,6 +247,12 @@ h1#adaptation {
   color: rgb(26, 26, 145);
   position: relative;
   height: 100vh;
+}
+
+img#lastpic {
+  width: 50%;
+  margin-left: 30%;
+  margin-top: 0%;
 }
 
 footer {
@@ -232,7 +271,7 @@ a#footer {
 
 p {
   color: white;
-  margin: 0;
+  margin-bottom: 10%;
   padding: 0;
   margin-block-start: 0;
   margin-block-end: 0;
@@ -307,53 +346,44 @@ div.one {
 div.two {
   color: black;
   margin-left: 30%;
-  margin-top: 30%;
+  margin-top: -4%;
   font-size: 1.6rem;
 }
 
 div.three {
   color: black;
-  margin-left: 6%;
-  margin-top: 30%;
+  margin-left: -4%;
+  margin-top: -43%;
   font-size: 1.9rem;
 }
 
 div.four {
   color: black;
-  margin-left: 30%;
-  margin-top: 30%;
+  margin-left: 40%;
+  margin-top: -10%;
   font-size: 2.2rem;
 }
 
 div.five {
   color: black;
   margin-right: 30%;
-  margin-top: 30%;
+  margin-top: -70%;
   font-size: 2.4rem;
 }
 
 div.six {
   color: black;
   margin-left: 50%;
-  margin-top: 30%;
+  margin-top: -30%;
   font-size: 2.7rem;
 }
 
 div.seven {
   color: black;
   margin-left: 0.1%;
-  margin-top: 25%;
-  margin-right: 25%;
-  margin-bottom: 25%;
-  font-size: 3.2rem;
-}
-
-div.seven {
-  color: black;
-  margin-left: 0.1%;
-  margin-top: 25%;
-  margin-right: 25%;
-  margin-bottom: 25%;
+  margin-top: 0%;
+  margin-right: 0%;
+  margin-bottom: 2%;
   font-size: 3.2rem;
 }
 
@@ -363,4 +393,8 @@ img#pic {
 
 div.unipic {
   margin-right: 50%;
+}
+
+div.phase {
+  margin-left: 10%;
 }
