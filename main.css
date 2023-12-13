@@ -6,6 +6,12 @@ body {
   margin: 0%;
   overflow-x: hidden;
   height: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url(img/cat.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 main {
@@ -16,7 +22,6 @@ main {
 }
 
 h1 {
-  background-color: black;
   margin: 0%;
   height: 100vh;
   display: grid;
@@ -39,11 +44,12 @@ img {
   height: 3%;
   margin: 0%;
   float: left;
+  margin-left: 1%;
+  margin-top: 1%;
 }
 
 .topnav a {
   float: left;
-  color: #f2f2f2;
   text-align: end;
   padding: 0;
   text-decoration: none;
@@ -55,22 +61,24 @@ img {
   color: white;
   place-items: right;
   font-size: 1rem;
+  margin-right: 2%;
 }
 
 /* Style for the dropdown button and container */
 .dropdown {
   position: relative;
   display: inline-block;
+  margin-left: 1%;
 }
 
 /* Style for the dropdown button itself */
 .dropbtn {
-  background-color: #000000;
-  color: white;
+  color: rgb(255, 255, 255);
   padding: 0px;
-  font-size: 12px;
+  font-size: 1rem;
   border: none;
   cursor: pointer;
+  background-color: rgba(247, 241, 241, 0.02);
 }
 
 /* Style for the dropdown content (hidden by default) */
@@ -78,7 +86,7 @@ img {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  box-shadow: 0 8px 16px 0 rgba(243, 3, 3, 0.2);
+  box-shadow: 0 8px 16px 0 rgba(173, 35, 35, 0.2);
   z-index: 1;
 }
 
@@ -102,7 +110,6 @@ img {
 
 h1#universe {
   color: rgb(5, 5, 5);
-  background-image: url(img/Universe.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -110,65 +117,80 @@ h1#universe {
   /* scale the image to fit the container */
 }
 
+div#universe {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 70%;
+  margin-top: 0%;
+  height: 0vh;
+  width: 0vw;
+}
+
+img#universe {
+  position: absolute;
+  height: auto;
+  border-radius: 60%;
+  image-resolution: from-image;
+}
+
+img#unipic {
+  width: 100vh;
+  height: 50vh;
+  float: left;
+  margin-left: 1%;
+  margin-top: 1%;
+}
+
 button#scrollBtn {
   position: relative;
-  bottom: -580px;
-  right: 20px;
-  background-color: #333;
+  bottom: 40%;
+  left: -800px;
+  margin-bottom: 4%;
   color: rgb(255, 255, 255);
   border: none;
   border-radius: 60px;
   padding: 0px;
   cursor: pointer;
-  font-size: 12px;
-}
-
-div#arrowDown {
-  position: relative;
-  bottom: -140px;
-  right: 20px;
-  font-size: 10px;
-  color: rgb(255, 255, 255);
-  cursor: pointer;
+  font-size: 1rem;
+  /* Set a transparent background color with 50% opacity */
+  background-color: rgba(247, 241, 241, 0.02);
 }
 
 h1:nth-child(2n-1) {
-  background-color: wheat;
   color: #333;
 }
 
 h1#spiritual {
   color: rgb(0, 0, 0, 5);
-  background-image: url(img/spiritual.jpg);
+
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: rgb(22, 22, 22);
 }
 
 h1#matured {
   color: rgb(48, 51, 42);
-  background-image: url(img/matured.jpg);
+
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-color: rgb(204, 21, 21);
+
   margin-block-start: 0;
   margin-block-end: 0;
 }
 
 h1#knowledge {
   color: rgb(26, 26, 145);
-  background-image: url(img/knowledge3.jpg);
+
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 h1#fade {
-  background-color: burlywood;
   color: orangered;
-  background-image: url(img/fade.jpg);
+
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -176,7 +198,7 @@ h1#fade {
 
 h1#phase {
   color: goldenrod;
-  background-image: url(img/Phase.jpg);
+
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -189,7 +211,6 @@ h1#matured::before {
   overflow: hidden;
 }
 h1#adaptation {
-  background-color: rgb(7, 214, 241);
   color: rgb(26, 26, 145);
   position: relative;
   height: 100vh;
@@ -210,12 +231,12 @@ a#footer {
 }
 
 p {
+  color: white;
   margin: 0;
   padding: 0;
   margin-block-start: 0;
   margin-block-end: 0;
-  background: rgba(0, 0, 0, 0.5);
-  text-align: left;
+  text-align: right;
 }
 
 #text {
@@ -223,7 +244,7 @@ p {
   padding: 0;
   margin-block-start: 0;
   margin-block-end: 0;
-  background: rgba(0, 0, 0, 0.5);
+  color: black;
   text-align: right;
 }
 body {
@@ -252,7 +273,7 @@ footer {
 
 /* Styles for the entire scrollbar */
 .container::-webkit-scrollbar {
-  width: 12px; /* Set the width of the scrollbar */
+  width: 0%; /* Set the width of the scrollbar */
 }
 
 /* Styles for the track (the area where the thumb doesn't appear) */
@@ -269,4 +290,77 @@ footer {
 /* Styles for the corner where vertical and horizontal scrollbars meet */
 .container::-webkit-scrollbar-corner {
   background-color: #f1f1f1; /* Set the color of the corner */
+}
+
+div.one {
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f01717;
+  width: 41%;
+  height: 0%;
+  padding: 0px;
+  font-size: 1rem;
+  margin-left: 50%;
+}
+
+div.two {
+  color: black;
+  margin-left: 30%;
+  margin-top: 30%;
+  font-size: 1.6rem;
+}
+
+div.three {
+  color: black;
+  margin-left: 6%;
+  margin-top: 30%;
+  font-size: 1.9rem;
+}
+
+div.four {
+  color: black;
+  margin-left: 30%;
+  margin-top: 30%;
+  font-size: 2.2rem;
+}
+
+div.five {
+  color: black;
+  margin-right: 30%;
+  margin-top: 30%;
+  font-size: 2.4rem;
+}
+
+div.six {
+  color: black;
+  margin-left: 50%;
+  margin-top: 30%;
+  font-size: 2.7rem;
+}
+
+div.seven {
+  color: black;
+  margin-left: 0.1%;
+  margin-top: 25%;
+  margin-right: 25%;
+  margin-bottom: 25%;
+  font-size: 3.2rem;
+}
+
+div.seven {
+  color: black;
+  margin-left: 0.1%;
+  margin-top: 25%;
+  margin-right: 25%;
+  margin-bottom: 25%;
+  font-size: 3.2rem;
+}
+
+img#pic {
+  margin-left: -60%;
+}
+
+div.unipic {
+  margin-right: 50%;
 }
